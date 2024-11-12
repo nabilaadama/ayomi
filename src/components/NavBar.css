@@ -1,0 +1,27 @@
+/* src/components/Navbar.css */
+
+.navbar_title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+    
+  ion-button {
+    color: white;
+    font-weight: normal;
+  }
+.navbar_background {
+    --background : #738A6E;
+}
+
+.navbar_button {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.navbar_end_buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+  }
