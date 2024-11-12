@@ -1,3 +1,4 @@
+//masih tes
 import React from 'react';
 import {
     IonHeader,
@@ -11,7 +12,6 @@ import {
     personCircleOutline 
 } from 'ionicons/icons';
 import { useLocation } from 'react-router-dom';
-import {auth} from "../firebaseConfig";
 import './Navbar.css';
 
 const Navbar: React.FC = () => {
