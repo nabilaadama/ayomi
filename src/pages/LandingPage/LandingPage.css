@@ -1,0 +1,53 @@
+/* masih tes */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/public/\ foto_aboutus.png'); /* Pastikan gambar ada di folder public/assets */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.overlay {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 700px;
+    width: 90%;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-family: 'Montserrat', sans-serif; /* Tambahkan font-family */
+  }
+  
+  .subtitle {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif; /* Tambahkan font-family */
+
+  }
+  
+  .search-input {
+    flex: 1;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif; /* Tambahkan font-family */
+
+  }
+  
+  .search-icon {
+    font-size: 1.3rem;
+    color: gray;
+  }

@@ -1,0 +1,66 @@
+/* src/pages/AboutUs.css */
+
+.navbar-title {
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Montserrat';
+    
+  }
+  
+  .nav-links {
+    margin-right: 15px;
+    color: white;
+    font-family: 'Montserrat';
+
+  }
+  
+  .nav-icon {
+    font-size: 1.5rem;
+    color: white;
+
+
+  }
+  
+  .banner {
+    background-image: url('/public/\ foto_aboutus.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .sdg-section {
+    padding: 20px;
+    text-align: center;
+    color: #344C3D;
+  }
+  
+  .sdg-logo {
+    width: 200px;
+    margin: 15px auto;
+  }
+  
+  .sdg-icon {
+    width: 200px;
+    margin: 10px 0;
+  }
+  
+  .vision-mission-section {
+    padding: 20px;
+    color: #344C3D;
+  }
+  
+  .vision-mission-card {
+    background-color: #cccdcb;
+    text-align: center;
+    padding: 20px;
+  }
+  
