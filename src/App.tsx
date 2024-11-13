@@ -1,8 +1,9 @@
 import { IonApp, IonRouterOutlet, IonSplitPane, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { Redirect, Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
 import AboutUs from './pages/AboutUs/AboutUs';
-import LandingPage from './pages/LandingPage/LandingPage'
+import LandingPage from './pages/LandingPage/LandingPage';
 import Signin from './pages/Auth/Signin';
 
 
@@ -41,6 +42,7 @@ setupIonicReact();
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
+      <NavBar/>
       <IonRouterOutlet>
         
         <Route exact path="/signIn">
@@ -56,7 +58,7 @@ const App: React.FC = () => (
         </Route>
     
         <Route exact path="/">
-          <Redirect to="/LandingPage" />
+          <Redirect to="/" />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
