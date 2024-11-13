@@ -15,7 +15,7 @@ const NavBar: React.FC = () => {
     <IonHeader>
       <IonToolbar className="navbar-background">
         <IonTitle slot="start" className="navbar-title">
-          Ayom<i className="icon-style fa fa-trash"></i>
+          Ayomi<i className="icon-style fa fa-trash"></i>
         </IonTitle>
 
         <IonButtons slot="end" className="navbar-end-buttons">
