@@ -2,9 +2,11 @@ import { IonApp, IonRouterOutlet, IonSplitPane, setupIonicReact } from '@ionic/r
 import { IonReactRouter } from '@ionic/react-router';
 import { Redirect, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import AboutUs from './pages/AboutUs/AboutUs';
 import LandingPage from './pages/LandingPage/LandingPage';
 import Signin from './pages/Auth/Signin';
+import KerajinanSampah from './pages/KerajinanSampah/KerajinanSampah';
 
 
 /* Core CSS required for Ionic components to work properly */
@@ -56,12 +58,17 @@ const App: React.FC = () => (
         <Route exact path="/AboutUs">
           <AboutUs />
         </Route>
-    
+
+        <Route exact path="/KerajinanSampah">
+          <KerajinanSampah />
+        </Route>
+
         <Route exact path="/">
           <Redirect to="/" />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
+    <Footer/>
   </IonApp>
 );
 

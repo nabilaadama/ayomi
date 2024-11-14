@@ -1,0 +1,35 @@
+.footer-container {
+  background-color: #344C3D; /* Warna latar belakang footer */
+  padding: 20px;
+  text-align: center;
+  position: relative; /* Menghindari fixed positioning */
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-toolbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #FFFF;
+}
+
+.find-us {
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+}

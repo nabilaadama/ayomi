@@ -1,12 +1,11 @@
-/* masih tes */
-
+/* Masih tes */
 .navbar_title {
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
   font-family: 'Montserrat', sans-serif; /* Tambahkan font-family */
 }
-  
+
 ion-button {
   color: white;
   font-weight: normal;
@@ -14,11 +13,11 @@ ion-button {
 }
 
 .navbar_background {
-  --background: #738A6E;
+  background-color: #738A6E; /* Warna latar belakang langsung */
 }
 
 .navbar_button {
-  color: #fff;
+  color: #738A6E;
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif; /* Tambahkan font-family */
 }

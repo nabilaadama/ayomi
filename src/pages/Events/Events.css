@@ -1,0 +1,151 @@
+.ion-text-center {
+    text-align: center;
+    color: black; /* Warna font hitam */
+}
+
+.craft-container {
+    display: flex;
+    justify-content: flex-start; /* Menyusun gambar dan teks berdampingan */
+    align-items: center; /* Menyelaraskan vertikal */
+    margin-top: 30px; /* Jarak antara judul dan kontainer */
+    
+}
+
+h1 {
+    color: #344C3D; /* Warna font hijau tua */
+    margin: 0 auto; /* Posisi teks di tengah */
+    font-family: 'Montserrat', sans-serif; /* Font Montserrat */
+    font-size: 40px; /* Ukuran font */
+    font-weight: 600 !important;
+    
+    
+}
+
+/* Gaya untuk gambar utama */
+.craft-image {
+    object-fit: cover; /* Menjaga proporsi gambar */
+    width: 700px;
+    height: 350px;
+    margin-left: 70px;
+    border-radius: 30px; /* Membuat border dengan sudut membulat */
+    margin-left: 70px;
+}
+
+/* Gaya untuk deskripsi */
+.craft-description h2 {
+    font-size: 22px; /* Ukuran font untuk judul */
+    font-weight: 600; /* Semi-bold */
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    color: #344C3D; /* Warna judul */
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.craft-description p {
+    font-size: 18px; /* Ukuran font untuk paragraf */
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5; /* Jarak antar baris */
+    color: #555; /* Warna teks */
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-right: 70px;
+}
+
+/* Gaya untuk container gambar tambahan */
+.additional-image-container {
+    display: flex;
+    justify-content: flex-start; /* Mengatur gambar dan teks berdampingan */
+    align-items: center; /* Menyelaraskan vertikal */
+    margin-top: 50px; /* Jarak atas */
+    padding-left: 70px;
+}
+
+.additional-image {
+    width: 595px; /* Ukuran lebar gambar */
+    height: 350px; /* Menjaga proporsi gambar */
+    border-radius: 30px; /* Membuat border dengan sudut membulat */
+    margin-right: 20px; /* Jarak antara gambar dan teks */
+}
+
+.craft-description2 {
+    flex: 1; /* Membuat deskripsi mengambil sisa ruang */
+}
+
+.craft-description2 h2 {
+    font-size: 22px;
+    font-weight: 600;
+    padding-right: 70px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    color: #344C3D;
+    padding-left: 14px;
+    
+}
+
+.craft-description2 p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: #555;
+    text-align: justify;
+    padding-right: 70px;
+    margin-left: 18px;
+}
+
+.additional-image-container2 {
+    display: flex;
+    justify-content: flex-start; /* Mengatur gambar dan teks berdampingan */
+    align-items: center; /* Menyelaraskan vertikal */
+    margin-top: 50px; /* Jarak atas */
+    padding-left: 70px;
+}
+
+.additional-image2 {
+    width: 595px; /* Ukuran lebar gambar */
+    height: 350px; /* Menjaga proporsi gambar */
+    border-radius: 30px; /* Membuat border dengan sudut membulat */
+    margin-right: 20px; /* Jarak antara gambar dan teks */
+}
+
+.craft-description3 {
+    flex: 1; /* Membuat deskripsi mengambil sisa ruang */
+}
+
+.craft-description3 h2 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    padding-right: 70px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    color: #344C3D;
+    padding-left: 14px;
+    
+}
+
+.craft-description3 p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: #555;
+    text-align: justify;
+    padding-right: 70px;
+    margin-left: 18px;
+}
+
+.tutorial-button {
+    color: white;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 12px;
+    --border-radius: 8px;
+    border: none;
+    margin-right: 460px; /* Atur sesuai kebutuhan */
+  }
+  
+
+  
