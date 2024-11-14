@@ -25,8 +25,7 @@ import {
   personCircleOutline,
 } from "ionicons/icons";
 import "./AboutUs.css";
-
-
+import Footer from "../../components/Footer";
 
 const AboutUs: React.FC = () => {
   return (
@@ -35,17 +34,25 @@ const AboutUs: React.FC = () => {
       <IonHeader>
         <IonToolbar style={{ "--background": "#344C3D" }}>
           <IonTitle className="navbar-title">Ayomi</IonTitle>
-          <IonText slot="end" className="nav-links">Events</IonText>
-          <IonText slot="end" className="nav-links">About Us</IonText>
+          <IonText slot="end" className="nav-links">
+            Events
+          </IonText>
+          <IonText slot="end" className="nav-links">
+            About Us
+          </IonText>
           <IonIcon icon={personCircleOutline} slot="end" className="nav-icon" />
-          
         </IonToolbar>
       </IonHeader>
 
-      <IonContent className="about-content" style={{ "--background": "#f5f5f5" }}>
+      <IonContent
+        className="about-content"
+        style={{ "--background": "#f5f5f5" }}
+      >
         {/* Banner Image */}
         <div className="banner">
-          <IonText color="light" className="banner-title">About Us</IonText>
+          <IonText color="light" className="banner-title">
+            About Us
+          </IonText>
         </div>
 
         {/* SDG Section */}
@@ -73,7 +80,12 @@ const AboutUs: React.FC = () => {
               <IonCard className="vision-mission-card">
                 <IonCardContent>
                   <h1>Visi</h1>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse est doloribus porro eius mollitia a blanditiis ipsum nostrum ducimus non quasi laboriosam molestias accusantium obcaecati, hic culpa voluptate tempora quaerat!</p>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Esse est doloribus porro eius mollitia a blanditiis ipsum
+                    nostrum ducimus non quasi laboriosam molestias accusantium
+                    obcaecati, hic culpa voluptate tempora quaerat!
+                  </p>
                 </IonCardContent>
               </IonCard>
             </IonCol>
@@ -81,12 +93,18 @@ const AboutUs: React.FC = () => {
               <IonCard className="vision-mission-card">
                 <IonCardContent>
                   <h1>Misi</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime placeat ratione nisi soluta illo cum temporibus aut cumque facilis atque laborum tempora, corrupti tenetur illum architecto, odit eius blanditiis repudiandae.</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime placeat ratione nisi soluta illo cum temporibus aut
+                    cumque facilis atque laborum tempora, corrupti tenetur illum
+                    architecto, odit eius blanditiis repudiandae.
+                  </p>
                 </IonCardContent>
               </IonCard>
             </IonCol>
           </IonRow>
         </IonGrid>
+        <Footer />
       </IonContent>
     </IonPage>
   );
